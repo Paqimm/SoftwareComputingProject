@@ -121,15 +121,16 @@ string SetPath(bool Set)
         if(out.is_open() && out.good())
         {
             string fout="\0";
-            while(!out.eof()) { getline(out,fout); fout; }
+            while(!out.eof()) getline(out,fout);
 
-            int c=0;
+            unsigned int c=0;
             while(c<fout.length())
             {
                 if(fout[c]=='\\') pathSet += '\\';
                 else pathSet += fout[c];
                 ++c;
             }
+            pathSet += '\\';
         }
         else { cout <<"Error in Opening Set Path Setting Path!!!" <<endl; Error=true; }
         out.clear(); out.close();
@@ -137,6 +138,7 @@ string SetPath(bool Set)
 
         return pathSet;
     }
+    return "\0";
 }
 
 void UserActivities()
@@ -161,6 +163,7 @@ void UserActivities()
             if(SystemUser.Status()=="Employer") SystemUser.Name().insert(0,"ADMIN");
             StoreDetails((PasswordVerfication())&&(!UserLoginVerfication(false)));
         }
+		FileAccess(UserLoginVerfication(true));
 		break;
 
 		case 3:

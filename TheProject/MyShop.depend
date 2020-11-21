@@ -250,3 +250,121 @@
 1597879749 source:e:\documents\work\3rd_year_sem1\2205_software_computing_project\myshop_code\myshop\users.cpp
 	"MyShopDeclarations.h"
 
+1598527843 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\#01--myshopmain.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<fstream>
+	<string>
+	<algorithm>
+	<windows.h>
+	<stdlib.h>
+
+1598398707 e:\documents\work\programming\projects\softwarecomputingproject\theproject\myshopdeclarations.h
+	<iostream>
+	<windows.h>
+	<algorithm>
+	<fstream>
+	<string>
+	<stdlib.h>
+	<conio.h>
+	<ctime>
+	<vector>
+	<map>
+
+1597883875 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\accountaccess.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<conio.h>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+
+1597878861 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\businessdebts.cpp
+	"MyShopDeclarations.h"
+
+1598534244 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\changeuserdetails.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<conio.h>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+
+1596843867 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\customermemberfunctions.cpp
+	"MyShopDeclarations.h"
+
+1597885973 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\customers.cpp
+	"MyShopDeclarations.h"
+
+1597879749 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\deleteaccount.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<conio.h>
+	<fstream>
+	<stdlib.h>
+	<windows.h>
+
+1597846603 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\detailsstorage.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<fstream>
+	<windows.h>
+	<stdlib.h>
+
+1597868052 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\detailsverification.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<conio.h>
+	<fstream>
+	<windows.h>
+	<stdlib.h>
+	<algorithm>
+
+1598529496 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\forgotpassword.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1597882188 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\googledrivebackup.cpp
+	"MyShopDeclarations.h"
+
+1596805579 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\identificationpool.cpp
+
+1597878861 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\newcustomer.cpp
+	"MyShopDeclarations.h"
+
+1598530484 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\newpassword.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1596269767 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\passwordgenenerator.cpp
+	"MyShopDeclarations.h"
+	<windows.h>
+	<iostream>
+
+1598532564 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\productcategoryfunctions.cpp
+	"MyShopDeclarations.h"
+
+1598398708 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\productmemberfunctions.cpp
+	"MyShopDeclarations.h"
+
+1597883875 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\productsinquired.cpp
+	"MyShopDeclarations.h"
+
+1597878861 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\stockproducts.cpp
+	"MyShopDeclarations.h"
+
+1597885820 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\todaysrecords.cpp
+	"MyShopDeclarations.h"
+
+1598527912 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\useraccountmemberfunctions.cpp
+	"MyShopDeclarations.h"
+	<iostream>
+	<windows.h>
+
+1597879749 source:e:\documents\work\programming\projects\softwarecomputingproject\theproject\users.cpp
+	"MyShopDeclarations.h"
+

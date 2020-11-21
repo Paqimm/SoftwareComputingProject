@@ -36,9 +36,21 @@ void UserAccount::CreateAccount()
     cout <<"(Password should contain numbers, special)" <<endl;
     cout <<"(characters, both capital letters and small letters)" <<endl;
     cout <<"-------------------------------------------\n";
-    cout <<"Choose Your Status:\n1.Employer\t2.Employee\nChoose: ";
 
-    int choose=0; cin.sync(); cin >>choose;
+    int choose=0;
+
+    if(!FileStatus("SystemUsers"))
+    {
+        choose=1;
+        cout <<"\tEMPLOYER ACCOUNT" <<endl;
+    }
+    else
+    {
+        cout <<"Choose Your Status:\n1.Employer\t2.Employee\nChoose: ";
+        cin.sync(); cin >>choose;
+    }
+
+
     switch(choose)
     {
         case 1:
