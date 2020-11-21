@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MyShop" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MyShop" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MyShop" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="#01--MyShopMain.cpp" />
+		<Unit filename="AccountAccess.cpp" />
+		<Unit filename="BusinessDebts.cpp" />
+		<Unit filename="ChangeUserDetails.cpp" />
+		<Unit filename="CustomerMemberFunctions.cpp" />
+		<Unit filename="Customers.cpp" />
+		<Unit filename="DeleteAccount.cpp" />
+		<Unit filename="DetailsStorage.cpp" />
+		<Unit filename="DetailsVerification.cpp" />
+		<Unit filename="ForgotPassword.cpp" />
+		<Unit filename="GoogleDriveBackup.cpp" />
+		<Unit filename="IdentificationPool.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MyShopDeclarations.h" />
+		<Unit filename="NewCustomer.cpp" />
+		<Unit filename="NewPassword.cpp" />
+		<Unit filename="PasswordGenenerator.cpp" />
+		<Unit filename="ProductCategoryFunctions.cpp" />
+		<Unit filename="ProductMemberFunctions.cpp" />
+		<Unit filename="ProductsInquired.cpp" />
+		<Unit filename="StockProducts.cpp" />
+		<Unit filename="TodaysRecords.cpp" />
+		<Unit filename="UserAccountMemberFunctions.cpp" />
+		<Unit filename="Users.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
